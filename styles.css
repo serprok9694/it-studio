@@ -1,0 +1,45 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  width: 75%;
+  margin: 0 auto;
+}
+
+header {
+  border-bottom: 1px solid #A1A1A1;
+}
+
+header ul {
+  display: flex;
+  justify-content: flex-end;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+header ul li {
+  padding: 40px 20px 40px 20px;
+  transition: .3s;
+}
+
+header ul li:hover {
+  border-bottom: 2px solid #fff;
+}
+
+header ul li a {
+  font-size: 16px;
+  line-height: 20px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.zero {
+  background-image: url(./img/Rectangle.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}

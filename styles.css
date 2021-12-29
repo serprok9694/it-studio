@@ -261,3 +261,64 @@ h1 {
   color: #4985FF;
   font-family: 'Montserrat Regular';
 }
+
+.about-work {
+  background-image: url(./img/Rectangle\ \(1\).png);
+  background-size: cover;
+  text-align: center;
+  padding-top: 70px;
+  /* position: relative;
+  height: 570px; */
+}
+
+.about-work h2 {
+  margin-top: 0;
+  margin-bottom: 30px;
+  color: #fff;
+}
+
+.about-work p {
+  font-size: 16px;
+  line-height: 25px;
+  color: #FFFFFF;
+  font-family: 'Montserrat Regular';
+  margin: 0;
+}
+
+.about-work .video {
+  width: 70%;
+  margin: 0 auto;
+  height: 430px;
+  background-image: url(./img/Rectangle\ 2\ \(1\).png);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  position: relative;
+  top: 80px;
+  /* position: absolute;
+  bottom: -80px;
+  left: 0;
+  right: 0; */
+}
+
+.about-work .video .play {
+  border: 1px solid #FFFFFF;
+  border-radius: 200px;
+  padding: 20px 40px;
+  font-size: 16px;
+  line-height: 25px;
+  color: #FFFFFF;
+  display: flex;
+  align-items: center;
+}
+
+.about-work .video .play img {
+  padding-right: 21px;
+}
+
+.spam { 
+  height: 100vh;
+}
